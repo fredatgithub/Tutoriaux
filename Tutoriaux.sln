@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutoriaux", "Tutoriaux\Tutoriaux.csproj", "{F61D4957-8163-4940-BD6D-B28F9B571C61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotClefParse", "MotClefParse\MotClefParse.csproj", "{1BD40462-FF10-4126-B3EF-313470678B0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F61D4957-8163-4940-BD6D-B28F9B571C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61D4957-8163-4940-BD6D-B28F9B571C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61D4957-8163-4940-BD6D-B28F9B571C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD40462-FF10-4126-B3EF-313470678B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD40462-FF10-4126-B3EF-313470678B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD40462-FF10-4126-B3EF-313470678B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD40462-FF10-4126-B3EF-313470678B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
