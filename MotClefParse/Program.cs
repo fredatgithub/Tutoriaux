@@ -11,13 +11,14 @@ namespace MotClefParse
       int age = 0;
       //age = Console.ReadLine(); // erreur car readline renvoit un string
       //affiche(age); // erreur car affiche attends un string
-      affiche(age.ToString()); // plus d'erreur
+      //affiche(age.ToString()); // plus d'erreur
       string age2;
       age2 = Console.ReadLine();
       affiche("L'age entré est " + age2); // age2 peut être un nombre ou un string
       //Utilisation de PARSE
       int age3;
       //age3 = int.Parse(age2); //erreur si age2 n'est pas un entier
+      // il faudrait l'insérer dans un try catch pour attraper l'erreur
       //affiche(age3.ToString());
       //bonne pratique :
       if (int.TryParse(age2, out age3))
