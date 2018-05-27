@@ -12,7 +12,7 @@ namespace Tutoriaux
       affiche("En anglais nous sommes le " + aujourdhui.DayOfWeek);
       // méthode to string non nécessaire
       affiche(aujourdhui.DayOfWeek.ToString()); // en anglais par défaut
-      var culture = new CultureInfo("fr-FR");
+      CultureInfo culture = new CultureInfo("fr-FR");
       var jour = culture.DateTimeFormat.GetDayName(DateTime.Today.DayOfWeek);
       affiche("Aujourd'hui en français nous sommes le " + jour); // en français
 
