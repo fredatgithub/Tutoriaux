@@ -37,7 +37,7 @@ namespace Dictionnaire
 
       affiche("le nombre du mot UN est " + compteurdeMot["un"]);
       // pour parcourir un dictionnaire, on le parcours comme une liste
-      foreach (KeyValuePair<string, int> keyValuePair in compteurdeMot)
+      foreach (var keyValuePair in compteurdeMot)
       {
         affiche("la clef est " + keyValuePair.Key + " et la valeur est "
                 + keyValuePair.Value);
@@ -50,7 +50,13 @@ namespace Dictionnaire
       //pour supprimer un élément du dictionnaire
       compteurDeChiffre.Remove(1); // pour un entier
       traducteur.Remove("bonjour"); // pour un string
-
+      affiche("après suppression :");
+      compteurdeMot.Remove("des");
+      foreach (var item in compteurdeMot)
+      {
+        affiche("la clef est " + item.Key + " et la valeur est "
+                + item.Value);
+      }
       Console.ReadKey();
     }
   }
