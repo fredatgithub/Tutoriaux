@@ -57,6 +57,7 @@ namespace Dictionnaire
         affiche("la clef est " + item.Key + " et la valeur est "
                 + item.Value);
       }
+
       Console.ReadKey();
     }
   }
